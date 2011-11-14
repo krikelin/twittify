@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<manifest 
+	package="com.krikelin.twittify">
+	<application name="Twittify">
+		<activity name=".twittify" label="Twittify">
+			<intent-filter>
+				<action name="spotiapp.action.VIEW" />
+			</intent-filter>
+			<intent-filter>
+				<action name="spotiapp.action.ENTRY" />
+			</intent-filter>
+		</activity>
+	</application>
+</manifest>
